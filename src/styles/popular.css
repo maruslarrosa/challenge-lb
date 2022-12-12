@@ -1,0 +1,46 @@
+@import url('./colors.css');
+
+.popular-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    width: 35%;
+    height: 85vh;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.sort-popular {
+    padding: 1rem 0;
+    text-shadow: 1px 1px 2px var(--gray)
+}
+
+.selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.dropdown {
+    width: 10rem;
+    color: white;
+    background-color: var(--gray);
+}
+
+.plain-text {
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 1px 1px 2px var(--gray)
+}
+
+@media screen and (max-width: 500px) {
+    .popular-container {
+        margin-right: 0;
+        height: 100%;
+    }
+}

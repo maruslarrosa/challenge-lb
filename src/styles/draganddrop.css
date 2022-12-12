@@ -1,0 +1,5 @@
+.drag-container {
+    border: 1px dashed;
+    display: flex;
+    padding: 0 1rem;
+}
